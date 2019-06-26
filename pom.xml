@@ -167,7 +167,7 @@
 				</configuration>
 			</plugin>
 		</plugins>
-		<finalName>demoTest</finalName>
+		<finalName>demotest</finalName>
 	</build>
 	<repositories>
 		<repository>
