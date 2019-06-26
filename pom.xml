@@ -167,7 +167,7 @@
 				</configuration>
 			</plugin>
 		</plugins>
-		<finalName>springboot_docker_demo</finalName>
+		<finalName>demoTest</finalName>
 	</build>
 	<repositories>
 		<repository>
