@@ -1,4 +1,4 @@
 FROM java:8
 VOLUME /tmp
-ADD demotest.war demotest.war
-ENTRYPOINT ["java","-war","target/demotest.war"]
+ADD demotest.jar demotest.jar
+ENTRYPOINT ["java","-jar","target/demotest.jar"]
