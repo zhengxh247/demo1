@@ -8,12 +8,15 @@ import java.sql.Date;
  */
 public class MiaoshaUser {
       private Long id;
+	  private String mobile;
       private String nikename;
       private String password;
       private String salt;
       private String head;
       private Date lastLoginDate;
       private Integer loginCount;
+	public String getMobile() { return mobile; }
+	public void setMobile(String mobile) { this.mobile = mobile; }
 	public Long getId() {
 		return id;
 	}

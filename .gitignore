@@ -23,3 +23,6 @@
 /dist/
 /nbdist/
 /.nb-gradle/
+/src/main/resources/static/js/md5.min.js
+/src/main/resources/static/js/messages_zh.js
+/src/main/resources/static/js/layer.js

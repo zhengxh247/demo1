@@ -1,26 +1,25 @@
 package com.example.demo.model;
 
-import javax.validation.constraints.NotNull;
-
+import com.example.demo.validation.isMobile;
 import org.hibernate.validator.constraints.Length;
 
-import com.example.demo.validation.isMobile;
+import javax.validation.constraints.NotNull;
 
 public class User {
 	
 	@NotNull
 	@isMobile
-	private String name;
+	private String mobile;
     
 	@NotNull
     @Length(min=32)
 	private String password;
 	
-      public String getName() {
-		return name;
+	public String getMobile() {
+		return mobile;
 	}
-	public void setName(String name) {
-		this.name = name;
+	public void setMobile(String mobile) {
+		this.mobile = mobile;
 	}
 	public String getPassword() {
 		return password;

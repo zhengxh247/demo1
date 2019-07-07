@@ -23,3 +23,9 @@ spring:
     driver-class-name: com.mysql.jdbc.Driver
     # 使用druid数据源
     type: com.alibaba.druid.pool.DruidDataSource
+
+logging:
+  level:
+    org.springframework.web: DEBUG        ##Spring框架中的日志级别
+    com.example.demo: DEBUG    ##自己项目包名下的日志级别
+    com.example.demo.dao: DEBUG    ##自己项目包名下的日志级别

@@ -1,10 +1,10 @@
 package com.example.demo.validation;
 
-import javax.validation.ConstraintValidator;
-import javax.validation.ConstraintValidatorContext;
-
 import com.alibaba.druid.util.StringUtils;
 import com.example.demo.util.ValidatorUtil;
+
+import javax.validation.ConstraintValidator;
+import javax.validation.ConstraintValidatorContext;
 
 
 public class isMobileValidator implements ConstraintValidator<isMobile, String>{
@@ -23,7 +23,8 @@ public class isMobileValidator implements ConstraintValidator<isMobile, String>{
 			}
 		}
 	}
-	
+
+	@Override
 	public void initialize(isMobile constraintAnnotation) {
 		required=constraintAnnotation.required();
 	}

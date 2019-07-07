@@ -70,7 +70,7 @@
              error:function(){
             	 layer.closeAll();
              }
-		 }};
+		 })
 	}
 	
 	

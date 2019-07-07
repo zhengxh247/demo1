@@ -32,6 +32,7 @@ public class CodeMsg {
 	public static CodeMsg MOBILE_EMPTY = new CodeMsg(500212, "手机号码不能为空");
 	public static CodeMsg MOBLIE_ERROR = new CodeMsg(500213, "手机号码格式错误");
 	public static CodeMsg MOBILE_NOT_EXIT = new CodeMsg(500214, "手机号码不存在");
+	public static CodeMsg PASSWORD_ERROR = new CodeMsg(500215, "登录密码错误");
 	
 	private CodeMsg(int code,String msg) {
 		this.code=code;
