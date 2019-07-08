@@ -17,10 +17,10 @@ spring:
   profiles: dev
 
   datasource:
-    url: jdbc:mysql://112.126.66.252:3306/mysql
+    url: jdbc:mysql://112.126.66.252:3306/mysql?useUnicode=true&amp;characterEncoding=UTF-8&amp;useSSL=false&amp;autoReconnect=true&amp;failOverReadOnly=false&amp;serverTimezone=GMT
     username: root
     password: root
-    driver-class-name: com.mysql.cj.jdbc.Driver
+    driver-class-name: com.mysql.jdbc.Driver
     # 使用druid数据源
     type: com.alibaba.druid.pool.DruidDataSource
 
